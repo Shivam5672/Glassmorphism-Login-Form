@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden auto;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+}
+
+#container{
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./bg4.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#form{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    backdrop-filter: blur(13px);
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.text{
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+.text h1{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.input-box{
+    width: 100%;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 10px 0 10px 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+
+.remember{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+.remember label{
+    color: white;
+}
+
+.remember label input{
+    color: white;
+    margin-right: 3px;
+}
+
+.remember a{
+    color: white;
+    text-decoration: none;
+}
+
+.remember a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    border: none;
+    outline: none;
+    box-decoration-break: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.register-link{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 20px;
+    color: white;
+}
+
+.register-link p a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
